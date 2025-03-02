@@ -30,6 +30,8 @@ $text-secondary-color: #616070;
 
   &:hover {
     transform: scale(120%);
+    overflow: visible;
+    position: relative;
 
     .card__title {
       color: #34568b;
