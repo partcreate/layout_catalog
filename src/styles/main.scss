@@ -4,19 +4,11 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 10px;
   line-height: 14px;
-
-  /*
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: 'wdth' 100;
-  */
 }
 
 .catalog {
   display: grid;
-
-  max-width: 1024px;
+  justify-content: center;
 
   gap: 46px 48px;
 
@@ -26,18 +18,18 @@ body {
 
 @media (min-width: 488px) {
   .catalog {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 200px);
   }
 }
 
 @media (min-width: 768px) {
   .catalog {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px);
   }
 }
 
 @media (min-width: 1024px) {
   .catalog {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 200px);
   }
 }
